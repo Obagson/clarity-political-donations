@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.donor-verification]
+path = "contracts/donor-verification.clar"
+depends_on = []
+
 [contracts.political-donations]
 path = "contracts/political-donations.clar"
 depends_on = []
